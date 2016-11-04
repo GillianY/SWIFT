@@ -1,0 +1,61 @@
+http://inst.local/swift5974/DemoCode/
+
+引用 Swift 成功案例： coursera 
+http://realm.io/news/modular-ios-apps/
+
+
+iTunesU
+https://itunes.apple.com/tw/course/developing-ios-9-apps-swift/id1104579961
+
+
+func getInput() -> NSString {
+    var keyboard = NSFileHandle.fileHandleWithStandardInput()
+    var inputData = keyboard.availableData
+    return NSString(data: inputData, encoding:NSUTF8StringEncoding)!
+}
+
+
+Swift docs
+https://developer.apple.com/swift/
+https://developer.apple.com/swift/resources/
+
+iOS Human interface guildline
+
+
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1
+
+swift  programming guide
+https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
+
+MUST READ 
+https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/RevisionHistory.html#//apple_ref/doc/uid/TP40014097-CH40-ID459
+
+
+var version = (UIDevice.currentDevice().systemVersion as NSString).floatValue;
+   
+
+http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/
+
+https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW1
+
+Day2
+java opensource:
+
+fallthrough  (java : no break ;   swift : default break (use fallthrough) )
+
+java overload :
+http://www.inote.tw/java-overloading-overriding
+
+java online compiler 
+https://www.compilejava.net/
+
+java online compiler 
+overloading:
+同 fun name
+ 型別 數量 型別宣告順序 其中一個不同
+
+
+// ????? NSString vs String
+ 
+
+

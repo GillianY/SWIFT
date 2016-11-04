@@ -1,0 +1,29 @@
+引用 Swift 成功案例： coursera 
+http://realm.io/news/modular-ios-apps/
+
+
+iTunesU
+https://itunes.apple.com/tw/course/developing-ios-9-apps-swift/id1104579961
+
+
+func getInput() -> NSString {
+    var keyboard = NSFileHandle.fileHandleWithStandardInput()
+    var inputData = keyboard.availableData
+    return NSString(data: inputData, encoding:NSUTF8StringEncoding)!
+}
+
+
+Swift docs
+https://developer.apple.com/swift/
+https://developer.apple.com/swift/resources/
+
+iOS Human interface guildline
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1
+
+
+var version = (UIDevice.currentDevice().systemVersion as NSString).floatValue;
+   
+
+http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/
+
+https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW1
