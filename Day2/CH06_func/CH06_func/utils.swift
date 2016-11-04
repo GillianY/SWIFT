@@ -79,5 +79,29 @@ func test003(inout test1 idx :Int ,inout test2 idx2 :Int)
 //pass by copy
 
 
+// function type
+func m1(i:Int, _ j:Int)
+{ print("\(i+j)")
+}
+
+func m2(i:Int, _ j:Int)
+{ print("\(i*j)")
+}
+
+func PrcieCompany1(i:Int, _ j:Int=12)->Int?
+{
+    return i*j;
+}
+func PrcieCompany2(i:Int, _ j:Int=15)->Int?
+{
+    return i*j-20;
+}
+
+
+func processLogic(myfunc :(Int,Int)->Int? ,_ a:Int,_ b :Int){
+    print("\(myfunc(a,b)!)")
+}
+
+
 
 
