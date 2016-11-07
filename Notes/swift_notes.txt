@@ -59,6 +59,9 @@ overloading:
 
 IOS charts :
 http://www.appcoda.com.tw/ios-charts-api-tutorial/
+
+closure: 
+https://hugolu.gitbooks.io/learn-swift/content/Basic/Closure.html
  
 
 
