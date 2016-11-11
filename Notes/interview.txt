@@ -1,0 +1,10 @@
+interview :
+
+Android:
+
+IOS:
+http://nelson.logdown.com/posts/2015/04/27/questions-i-ask-when-interview-ios-engineer
+
+
+tmp:
+Redux http://huli.logdown.com/posts/294037-javascript-redux-basic-tutorial

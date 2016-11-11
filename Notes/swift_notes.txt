@@ -62,6 +62,12 @@ http://www.appcoda.com.tw/ios-charts-api-tutorial/
 
 closure: 
 https://hugolu.gitbooks.io/learn-swift/content/Basic/Closure.html
+
+practice :
+https://hugolu.gitbooks.io/learn-swift/content/Practices/index.html
+
+swift design pattern
+https://wildenchen.gitbooks.io/swift-design-patterns/content/Chapter07/Singleton.html
  
 
 
