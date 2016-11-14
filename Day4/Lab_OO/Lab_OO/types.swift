@@ -12,30 +12,42 @@ import Foundation
 protocol IShape{
     var peremeter : Double {get }
     var area : Double { get}
-    func showInfo()
+   // func showInfo()
+    func showBasicInfo() -> String
+}
+
+//refactor review // only in swift
+func showShapeInfo(shape : IShape){
+    print("\(shape.dynamicType): \(shape.showBasicInfo())  area_\(shape.area) peremeter_\(shape.peremeter)")
+
+
 }
 
 struct Circle : IShape {
-    var radius : Double;
+    var radius : Double = 0.0
     var peremeter : Double {
         get{
-            return radius * M_PI
+            return radius * 2 * M_PI
         }
     }
     var area : Double {
         get{
-            return pow((radius/2),2)*M_PI
+            return pow((radius),2)*M_PI
         }
     }
     
     func showInfo(){
-        print("Circle:radius_\(radius)  area_\(area) peremeter_\(peremeter)")
+        print("\(self.dynamicType): \(showBasicInfo())  area_\(area) peremeter_\(peremeter)")
+    }
+    
+    func showBasicInfo()->String{
+        return "[radius=\(radius)]"
     }
 }
 
 class Rectangle : IShape{
-    var width : Double
-    var height:Double
+    var width : Double = 0.0
+    var height:Double = 0.0
     
     init(width:Double,height :Double )
     {
@@ -54,8 +66,12 @@ class Rectangle : IShape{
     }
     
     func showInfo(){
-        print("width:\(width) height:\(height) area:\(area) peremeter:\(peremeter)")
+        print("\(self.dynamicType): area:\(area) peremeter:\(peremeter)")
     }
+    func showBasicInfo()->String{
+        return "[width:\(width) height:\(height) ]"
+    }
+
 
 }
 

@@ -45,3 +45,7 @@ class IBImpl : IB{
     
 }
 protocol IC: IB,IA {}
+
+
+
+
