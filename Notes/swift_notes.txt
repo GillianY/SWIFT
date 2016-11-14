@@ -70,4 +70,7 @@ swift design pattern
 https://wildenchen.gitbooks.io/swift-design-patterns/content/Chapter07/Singleton.html
  
 
+sqlite :
+http://www.runoob.com/sqlite/sqlite-data-types.html
+
 

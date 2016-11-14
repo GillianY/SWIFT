@@ -24,8 +24,8 @@ func closure01(name:String , greeting:String)->(){
 
 //closure1 :
 
-//var hi = closure01  // ???
-//hi()
+var hi : ()->() = closure01  // ???
+hi()
 //hi(name:"Grace", greeting:"Salut!")
 
 var h2 = { (name:String , greeting:String)->() in
