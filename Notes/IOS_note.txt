@@ -27,3 +27,6 @@ var version = (UIDevice.currentDevice().systemVersion as NSString).floatValue;
 http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/
 
 https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW1
+
+
+Code4App

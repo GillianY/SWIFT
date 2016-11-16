@@ -74,7 +74,7 @@ var i8 = Int(i7)  // optional
 print(i8.dynamicType)
 print(i8 ?? -1)
     //cast2: fundation
-var i9 = NSString(string: i7)
+var i9 = NSString(string: i7) //Dictionary ??
 print(i9.integerValue) // same as javascript
 
 let r7 = "a123"

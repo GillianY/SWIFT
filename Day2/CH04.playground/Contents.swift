@@ -5,7 +5,7 @@ import UIKit
 var str = "Hello, playground"
 
 var i = 0
- i += 2
+    i += 2
 print(pow(2.0 , 3.0)) // 8
 print(arc4random()) // Int32
 print ( 2 ^ 0 ) // self //XOR

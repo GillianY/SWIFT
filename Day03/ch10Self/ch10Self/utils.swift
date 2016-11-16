@@ -33,13 +33,13 @@ class School{
 }
 
 
+// singleton
 public class Superman{
     private static var _inst: Superman? = Superman() //!!!!
     public static func sharedSuperman() -> Superman?{
     return _inst
     }
     private init(){}
-    
 }
 
 class Demo{
@@ -48,7 +48,7 @@ class Demo{
         self.name = name
     }
     
-    struct Point {  // use class 問題比較少
+    struct Point {  // 使用  class 問題比較少
         var x = 0
         var y = 0
         mutating func moveTo(newX:Int, newY:Int){

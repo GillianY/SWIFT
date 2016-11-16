@@ -9,7 +9,7 @@
 import Foundation
 
 
-//loop 已有公式  ＆＆ 會有記憶體損耗(堆疊）
+//loop 已有公式 (Recursive)  ＆＆ 會有記憶體損耗(堆疊Stack）
 //Recursive 後台盡量避免 效能疑慮
 func febonacci(nth: UInt)->Int? {
     if(nth == 0){return nil}

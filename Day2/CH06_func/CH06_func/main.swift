@@ -30,8 +30,8 @@ sum(2,4,5,100,3,6,9)
 
 var idx = 100;
 var idx2 = 200;
-test001(idx)  //2
-print(idx) //1
+test001(idx)  //2 //105
+print(idx) //1   //100
 
 //call by address
 print("call by addess")
