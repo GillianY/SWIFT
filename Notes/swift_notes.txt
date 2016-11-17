@@ -1,4 +1,10 @@
+
+
 http://inst.local/swift5974/DemoCode/
+
+
+learning :
+http://www.appcoda.com.tw/learnswift/pageviewcontroller.html
 
 引用 Swift 成功案例： coursera 
 http://realm.io/news/modular-ios-apps/
